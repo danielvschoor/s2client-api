@@ -104,7 +104,7 @@ bool ParseSettings(int argc, char* argv[], ProcessSettings& process_settings, Ga
 
     std::string dataversion;
     if (arg_parser.Get("dataversion", dataversion)){
-        process_settings.dataversion = dataversion;
+        process_settings.data_version = dataversion;
     }
     
     arg_parser.Get("map", game_settings.map_name);
